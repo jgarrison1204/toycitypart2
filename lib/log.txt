@@ -1,0 +1,41 @@
+commit 9f1ac0e36502e1c44437993200b71848cbbd43bd
+Author: Jacob Garrison <jgarrison1204@gmail.com>
+Date:   Fri Feb 19 15:19:53 2016 -0800
+
+    Brands: refactored code for brands section into methods
+
+commit 3411d7bacec1d988cf612f7ae686a1b56d007dae
+Author: Jacob Garrison <jgarrison1204@gmail.com>
+Date:   Thu Feb 18 11:32:37 2016 -0800
+
+    Product: code refacted into methods.
+
+commit 84ba6fcc18bffd553464b75e8294e62d290068f7
+Author: Jacob Garrison <jgarrison1204@gmail.com>
+Date:   Wed Feb 17 12:31:09 2016 -0800
+
+    Brands:  refactored code from Toy City Reporter Part 1 after reviewer input
+
+commit 7f9150a56e21ff1eeabdcebade4adbe417c377d6
+Author: Jacob Garrison <jgarrison1204@gmail.com>
+Date:   Sat Jan 30 14:48:26 2016 -0800
+
+    Products: refactored code from Toy City Reporter Part 1 after reviewer input
+
+commit 3772a838eff799e466d8f045b249c46cd6ccd9e8
+Author: Jacob Garrison <jgarrison1204@gmail.com>
+Date:   Sat Jan 30 14:43:15 2016 -0800
+
+    Product: orginial code for product after Toy City Report 1 completed
+
+commit 61e387e6459156980f00301852c47c4d0779c66d
+Author: Jacob Garrison <jgarrison1204@gmail.com>
+Date:   Sat Jan 30 12:23:09 2016 -0800
+
+    all setup insturctions from udacity complete
+
+commit a8e221aaa1d66c812439c7a78cd3fd5482183924
+Author: Jacob Garrison <jgarrison1204@gmail.com>
+Date:   Thu Jan 28 17:45:42 2016 -0800
+
+    Original File From Udacity
