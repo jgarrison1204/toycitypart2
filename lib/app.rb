@@ -19,23 +19,11 @@ def create_report
 	#print_brands
 	#loop_brand_data
 	File.open("report.txt", "w") do |somefile|
-		somefile.puts print_sales_report
 		somefile.puts print_report_date
 		somefile.puts print_products
 		somefile.puts calculate_products
 		somefile.puts print_brands
 	end
-end
-
-# Print "Sales Report" in ascii art
-def print_sales_report
-" _______  _______  ___      _______  _______    ______    _______  _______  _______  ______    _______
-|       ||   _   ||   |    |       ||       |  |    _ |  |       ||       ||       ||    _ |  |       |
-|  _____||  |_|  ||   |    |    ___||  _____|  |   | ||  |    ___||    _  ||   _   ||   | ||  |_     _|
-| |_____ |       ||   |    |   |___ | |_____   |   |_||_ |   |___ |   |_| ||  | |  ||   |_||_   |   |
-|_____  ||       ||   |___ |    ___||_____  |  |    __  ||    ___||    ___||  |_|  ||    __  |  |   |
- _____| ||   _   ||       ||   |___  _____| |  |   |  | ||   |___ |   |    |       ||   |  | |  |   |
-|_______||__| |__||_______||_______||_______|  |___|  |_||_______||___|    |_______||___|  |_|  |___| \r\n"
 end
 
 # Print today's date
