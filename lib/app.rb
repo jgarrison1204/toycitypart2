@@ -153,14 +153,14 @@ end
 
 #Arrary containing unqiue brands used to create new arrarys by brand
 def dedup_brands
- $products_hash["items"].map {|iso| iso["brand"]}.uniq
+ $data.map {|iso| iso["brand"]}.uniq
 end
 
 #Sets filter to create new array by brand
 def loop_brand_data
 	dedup_brands.each do |brand|
 		#Creates new array by brand
-		toys_by_brand = $products_hash["items"].select {|item| item["brand"]==brand}
+		toys_by_brand = $data.select {|item| item["brand"]==brand}
 		#Reset variables as we iterate through hash
 		$sale_price = 0
 		$retail_price_brands = 0
