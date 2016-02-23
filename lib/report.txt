@@ -1,5 +1,13 @@
-Sales report for 02/22/16
 
+  #####                                 ######
+ #     #   ##   #      ######  ####     #     # ###### #####   ####  #####  #####
+ #        #  #  #      #      #         #     # #      #    # #    # #    #   #
+  #####  #    # #      #####   ####     ######  #####  #    # #    # #    #   #
+       # ###### #      #           #    #   #   #      #####  #    # #####    #
+ #     # #    # #      #      #    #    #    #  #      #      #    # #   #    #
+  #####  #    # ###### ######  ####     #     # ###### #       ####  #    #   #
+********************************************************************************
+Sales report for 02/23/16
 
                     | |          | |
  _ __  _ __ ___   __| |_   _  ___| |_ ___
@@ -12,24 +20,26 @@ Sales report for 02/22/16
 ******************************
 LEGO Iron Man vs. Ultron
 Retail Price: $22.99
+Total Purchases: 2
 Total sales: $36.98
-Average sale: $ 18.49
+Average Sale: $ 18.49
 Average discount: 19.6%
 
 ******************************
 Nano Block Empire State Building
 Retail Price: $49.99
+Total Purchases: 2
 Total sales: $68.98
-Average sale: $ 34.49
+Average Sale: $ 34.49
 Average discount: 31.0%
 
 ******************************
 LEGO Firehouse Headquarters
 Retail Price: $199.99
+Total Purchases: 2
 Total sales: $379.98
-Average sale: $ 189.99
+Average Sale: $ 189.99
 Average discount: 5.0%
-
 
  _
 | |                       | |
