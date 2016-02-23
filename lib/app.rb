@@ -86,15 +86,15 @@ def print_toy_retail_price
 end
 
 def print_toy_total_sales
-	 "Total sales: $#{$total_sales}"
+	  "Total sales: $#{$total_sales}"
 end
 
 def calculate_average_sales(total_sales, number_of_products)
-	 "Average sale: $ #{total_sales/number_of_products}"
+	  "Average sale: $ #{total_sales/number_of_products}"
 end
 
 def calculate_average_discount(total_sales, retail_price, number_of_products)
-	"Average discount: #{(1 - total_sales/(retail_price.to_f * number_of_products)).round(3)*100}"
+	 "Average discount: #{(1 - total_sales/(retail_price.to_f * number_of_products)).round(3)*100}"
 end
 
 # Print "Brands" in ascii art
@@ -132,8 +132,8 @@ def loop_brand_data
 				$sale_price += toy["price"]
 			end
 		end
+		calculate_brands
 	end
-	calculate_brands
 end
 
 def calculate_brands
@@ -148,20 +148,19 @@ def calculate_brands
 end
 
 def print_brand_title
-	 $brand_title
+	  $brand_title
 end
 
 def print_brand_stock
-	 "Number of #{$brand_title} products: #{$brand_stock}"
+	  "Number of #{$brand_title} products: #{$brand_stock}"
 end
 
 def calculate_average__brand_price(retail_price, brand_stock)
-	$average__brand_price = (retail_price/brand_stock).round(2)
-	"Average price of #{$brand_title} toys $#{(retail_price/brand_stock).round(2)}"
+	 "Average price of #{$brand_title} toys $#{(retail_price/brand_stock).round(2)}"
 end
 
 def calculate_brand_revenue
-	 "Total #{$brand_title} revenue: $#{($sale_price).round(2)}"
+	  "Total #{$brand_title} revenue: $#{($sale_price).round(2)}"
 end
 
 start
