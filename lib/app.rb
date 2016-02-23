@@ -13,11 +13,11 @@ def start
 end
 
 def create_report
-  loop_product_data
-  loop_brand_data
+	loop_product_data
+	loop_brand_data
   File.open("report.txt", "w") do |openfile|
     openfile.puts print_report_date
-  	openfile.puts print_products
+		openfile.puts print_products
     openfile.puts calculate_products
   	openfile.puts print_brands
     openfile.puts calculate_brands
@@ -44,8 +44,8 @@ def print_products
 	                                 "
 end
 
-def dots
-	 "**************************"
+def dots(number_of_dots)
+	 "*" * number_of_dots
 end
 
 def space
@@ -67,7 +67,7 @@ end
 
 def calculate_products
 "
-#{dots}
+#{dots(30)}
 #{print_toy_title}
 #{print_toy_retail_price}
 #{print_toy_total_sales}
@@ -110,7 +110,6 @@ def print_brands
 "
 end
 
-
 #Arrary containing unqiue brands used to create new arrarys by brand
 def dedup_brands
  $products_hash["items"].map {|iso| iso["brand"]}.uniq
@@ -123,26 +122,26 @@ def loop_brand_data
 		toys_by_brand = $products_hash["items"].select {|item| item["brand"]==brand}
 		#Reset variables as we iterate through hash
 		$sale_price = 0
-		$retail_price = 0
+		$retail_price_brands = 0
 		#Iterates through new arrays by brand
 		toys_by_brand.each do |bought|
 			$brand_title = bought["brand"]
-			$retail_price += bought["full-price"].to_f
+			$retail_price_brands += bought["full-price"].to_f
 			$brand_stock = toys_by_brand.map {bought["title"]}.length
 			bought["purchases"].each do |toy|
 				$sale_price += toy["price"]
 			end
 		end
-		calculate_brands
 	end
+	calculate_brands
 end
 
 def calculate_brands
 "
-#{dots}
+#{dots(30)}
 #{print_brand_title}
 #{print_brand_stock}
-#{calculate_average__brand_price($retail_price, $brand_stock)}
+#{calculate_average__brand_price($retail_price_brands, $brand_stock)}
 #{calculate_brand_revenue}
 #{space}
 "
